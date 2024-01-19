@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  align-content: center;
+  margin: 1rem;
+  border: 1px solid red;
+}
+.gridbox {
+  background-color: white;
+}
+
+.grid {
+  width: 2.5rem;
+  height: 2.5rem;
+  opacity: 0;
+  background-color: black;
+  transition: opacity 2s ease-in 0.4s, transform 0.8s ease;
+  transform: scale(1);
+}
+
+.grid:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(1.05);
+}
