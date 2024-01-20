@@ -6,22 +6,26 @@
 
 body {
   background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0;
   color: white;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  align-content: center;
-  margin: 1rem;
+  /* margin: 0 auto; */
   border: 1px solid red;
+  width: 75rem;
 }
+
 .gridbox {
   background-color: white;
 }
